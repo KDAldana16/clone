@@ -8,8 +8,6 @@
   <title>SunPower Inc.</title>
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <!-- Feather icons -->
-  <script src="https://unpkg.com/feather-icons"></script>
   <!-- JAVASCRIPT -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -25,20 +23,22 @@
       <img src="sunpower.png" width="200" height="50" class="d-inline-block align-top ml-5" alt="">
     </a>
   <div class="navbar-nav">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link"href="#">800-SUNPOWER <span class="sr-only">(current)</span></a>
+    <ul class="navbar-nav navbar-expand-lg">
+      <li class="nav-item active mr-3">
+        <a class="nav-link" href="#">800-SUNPOWER <span class="sr-only">(current)</span></a>
+        <ion-icon name="call-outline"></ion-icon>
       </li>
-      <li class="nav-item">
+      <li class="nav-item mr-3">
         <a class="nav-link" href="#">MY SUNPOWER</a>
+        <ion-icon name="person-circle-outline"></ion-icon>
       </li>
-      <li class="nav-item">
+      <li class="nav-item mr-3">
         <a class="nav-link" href="#">PAY MY BILL</a>
       </li>
+      <div class="btn btn-warning mr-5 text-light" type="button" value="Input">GET STARTED</div>
     </ul>
   </div>
-</nav>
-
+  </nav>
   </nav>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#"></a>
@@ -64,7 +64,7 @@
       </ul>
       <form class="form-inline offset-md-4">
         <input class="form-control mr-auto" type="search" placeholder="Search keywords" aria-label="Search">
-        <i data-feather="search"></i>
+        <ion-icon name="search-outline"></ion-icon>
       </form>
     </div>
   </nav>
@@ -77,9 +77,9 @@
     </div>
   </div>
 
-  <script>
-    feather.replace()
-  </script>
+<!-- Ionicons -->
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
 </body>
 
 </html>
