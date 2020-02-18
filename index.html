@@ -35,7 +35,7 @@
       <li class="nav-item mr-3">
         <a class="nav-link" href="#">PAY MY BILL</a>
       </li>
-      <div class="btn btn-warning mr-5 text-light" type="button" value="Input">GET STARTED</div>
+      <div class="btn btn-warning mr-5" type="button" value="Input">GET STARTED</div>
     </ul>
   </div>
   </nav>
@@ -69,13 +69,33 @@
     </div>
   </nav>
 
-  <!-- JUMBOTRON -->
-  <div class="jumbotron jumbrotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Fluid Jumbotron</h1>
-      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  <!-- JUMBOTRON WITH THE FORM-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-8">
+        <div class="jumbotron">
+            <h1>Introducing the SunPower® Design Studio</h1>
+            <p class="lead">See your home solar design and savings</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <form>
+          <div class="form-group bg-gradient-secondary">
+            <h1>SunPower Home Studio</h1>
+            <h3>See your home solar design and savings</h3>
+            <input type="address" class="form-control" placeholder="Home Address" id="exampleInputAddress" aria-describedby="addressHelp">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class"form-check-label" for="exampleCheck1"> I own my Home </label>
+          </div>
+          <small id="addressHelp" class="form-text text-muted">By clicking "DESIGN MY SOLAR SYSTEM," you are agreeing to SunPower's Terms of Conditions and Privacy Statement.</small>
+          <button type="submit" class="btn btn-warning">DESIGN MY SOLAR SYSTEM</button>
+        </form>
+      </div>
     </div>
   </div>
+
 
 <!-- Ionicons -->
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
